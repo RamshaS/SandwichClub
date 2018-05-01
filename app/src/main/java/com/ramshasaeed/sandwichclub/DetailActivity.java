@@ -87,6 +87,7 @@ public class DetailActivity extends AppCompatActivity {
             hide(R.id.rl_description);
         }
         if (!sandwich.getPlaceOfOrigin().isEmpty()) {
+            //this is a new branch
             show(R.id.rl_placeoforigin);
             mTvOrigin.setText(sandwich.getPlaceOfOrigin());
         } else {
